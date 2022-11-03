@@ -55,7 +55,7 @@ ROOT_URLCONF = 'University.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/elkin/OneDrive/Escritorio/Elkin/2022-2/Arquitecura de Software/Trabajos/university/Modulos/Academica/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
