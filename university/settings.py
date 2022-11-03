@@ -70,7 +70,7 @@ WSGI_APPLICATION = 'University.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'University.db',
+        'NAME': BASE_DIR / 'University.db',
     }
 }
 
