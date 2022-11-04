@@ -13,7 +13,7 @@ SECRET_KEY = ')!@hiilxvfi-)&b^(sead9g2jm3$5+-sd&ma^$+6hvlpjdd@!y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ufpsuniversity.herokuapp.com']
 
 
 # Application definition
