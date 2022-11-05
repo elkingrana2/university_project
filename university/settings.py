@@ -13,7 +13,7 @@ SECRET_KEY = ')!@hiilxvfi-)&b^(sead9g2jm3$5+-sd&ma^$+6hvlpjdd@!y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ufpsuniversity.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -26,10 +26,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Modulos.Academica',
-    'crispy_forms',
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+#CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -66,14 +65,12 @@ WSGI_APPLICATION = 'University.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd5plin67earq56',
-        'HOST': 'ec2-52-23-131-232.compute-1.amazonaws.com',
-        'USER': 'qswyqzqcygaejb',
-        'PASSWORD': 'ba97b6213a7fed95f1948955748143c922c84824b3c364843136781f46c3cb54',
-        'PORT': 5432
+        'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'University.db',
     }
+        
+    
 }
 
 

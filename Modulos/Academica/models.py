@@ -72,6 +72,7 @@ class Matricula(models.Model):
         fechaMat = self.fechaMatricula.strftime("%A %d/%m/%Y %H:%M:%S")
         return txt.format(self.estudiante.nombreCompleto(), letraSexo, self.curso, fechaMat)
 
+#Comentario a partir de acá
 opciones_consultas = [
     [0, 'consulta'],
     [1, 'reclamo'],
@@ -80,7 +81,7 @@ opciones_consultas = [
 ]
 
 class Contacto(models.Model):
-    nombre = models.CharField(max_length=50)
+    nombre = models.CharField(max_length=50, primary_key=True)
     correo = models.EmailField()
     tipo_consulta = models.IntegerField(choices=opciones_consultas)
     mensaje = models.TextField()
