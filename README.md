@@ -53,7 +53,7 @@ el directorio con tu código (en la sección "Code"),
 y anota en él el directorio
 (tal y como has clonado el código en PythonAnywhere) en el que
 tienes tu proyecto Django. En nuestro caso,
-`/home/"nombre"/Code/Python-Django/django-youtube-4`,
+`/home/elkin09/university_project`,
 o el que corresponda a la versión de `django-youtube` que 
 quieras que se lance en tu instancia.
 Haz lo mismo para el "working directory" (tendrás que especificar
@@ -74,7 +74,7 @@ instancia), porque la vamos a sustituir por nuestra aplicación.
 * En la sección `DJANGO`, descomenta el código que viene en el
 fichero, indicando el camino al proyecto Django
 que quieres que sirva tu instancia (variable `path`).
-En nuestro caso, `/home/"nombre"/Code/Python-Django/django-youtube-4`
+En nuestro caso, `/home/elkin09/university_project`
 (o la versión de `django-youtube` que quieras que se lance),
 siendo `"nombre"` el nombre de tu instancia.
 
@@ -95,7 +95,7 @@ Para editarlo, puedes usar la pestaña "Files".
 La lista (que normalmente está vacía) te debería quedar así:
 
 ```
-ALLOWED_HOSTS = ['canary.pythonanywhere.com']
+ALLOWED_HOSTS = ['elkin09.pythonanywhere.com']
 ```
 
 No olvides pulsar "Save" cuando hayas terminado de editar el fichero.
